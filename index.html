@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Cipher Work</title>
+	<script src="identify.js" type="text/javascript"></script>
+	<script src="ishash.js" type="text/javascript"></script> 
+  <!--	<script src="pretty.js" type="text/javascript"></script> -->
+	</head>
+<body>
+
+
+<textarea rows="4" cols="50" id="encoded" >
+Enter encode here here...</textarea>
+<input type="button" value="ID/Decode" onclick="triggertime()">
+
+<textarea rows="4" cols="50" id="decoded" readonly>Decoded text comes here</textarea>
+<br /><br /><br />
+<table><tr>
+<td name="log">
+Raw log:</br><input type="button" onclick="document.getElementById('log').innerHTML = '';" value="Clear log">
+<span id="log">
+
+</span>
+</td>
+</tr>
+<tr>
+<td name="possibilities">
+
+</td>
+</tr>
+</table>
+</body>
+</html>
